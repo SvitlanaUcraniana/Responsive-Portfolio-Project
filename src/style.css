@@ -150,6 +150,23 @@ nav li.active a {
   opacity: 100;
 }
 
+footer {
+  margin: 60px 0;
+}
+.contact-box {
+  background: #f9f7fe;
+padding: 40px 120px;
+}
+
+.contact-box a {
+  margin: 0;
+}
+h4 {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+}
 @media (max-width: 900px) {
   .hero {
     padding: 80px 20px;
@@ -172,6 +189,11 @@ nav li.active a {
     font-size: 38px;
   }
 
+  .content h1 {
+font-size: 48px;
+line-height: 1.5;
+  }
+
   .content-container {
     padding: 0;
     text-align: center;
@@ -179,7 +201,7 @@ nav li.active a {
 
   .work-content h1 {
     font-size: 38px;
-    line-height: 1.5;
+    line-height: 1;
   }
   .work-content h3 {
     font-size: 20px;
