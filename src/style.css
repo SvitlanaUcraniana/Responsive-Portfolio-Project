@@ -47,14 +47,15 @@ p {
   margin: 0;
 }
 
-.contact-button {
-  padding: 20px 30px;
+.primary-btn {
+  padding: 18px 30px;
   background: #6c63ff;
   color: white;
   border-radius: 4px;
   text-decoration: none;
   font-weight: 500;
   font-size: 18px;
+  line-height: 27px;
 }
 
 .projects-intro {
@@ -75,6 +76,37 @@ p {
   line-height: 24px;
   border: 1px solid #6c63ff;
   padding: 18px 25px;
+}
+
+.about-page {
+  padding: 160px 20px;  
+}
+
+.about-content {
+  margin: 30px;
+}
+
+.about-page h1 {
+  font-size: 64px;
+  line-height: 85px;
+}
+
+.about-page h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--default-color);
+  line-height: 27px;
+}
+
+.about-page p {
+  color: var(--default-color);
+  opacity: 70%;
+font-size: 16px;
+line-height: 30px;
+}
+
+.portfolio-photo {
+  width: 560px;
 }
 
 @media (max-width: 900px) {
