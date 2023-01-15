@@ -148,4 +148,11 @@ font-size: 38px;
     text-align: center;
   }
 
+  .work-content h1 {
+    font-size: 38px;
+    line-height: 1.5;
+  }
+  .work-content h3 {
+    font-size: 20px;
+  }
 }
