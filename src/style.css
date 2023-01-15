@@ -28,8 +28,8 @@ h3 {
 }
 
 .hero h3 {
-font-family: var(--heading-font-family);
-font-size: 64px;
+  font-family: var(--heading-font-family);
+  font-size: 64px;
 }
 
 p {
@@ -44,8 +44,6 @@ p {
   background: #f9f7fe;
   text-align: center;
 }
-
-
 
 .hero p {
   font-size: 36px;
@@ -88,7 +86,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;  
+  padding: 160px 20px;
 }
 
 .content {
@@ -121,26 +119,57 @@ p {
   margin-bottom: 40px;
 }
 
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  font-weight: 500;
+  margin-left: 15px;
+  line-height: 42px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: var(--default-color);
+  opacity: 0.7;
+}
+
+nav a:hover,
+nav li.active a {
+  color: #6c63ff;
+  opacity: 100;
+}
+
 @media (max-width: 900px) {
   .hero {
     padding: 80px 20px;
   }
   .hero p {
-font-size: 24px;
+    font-size: 26px;
   }
   h1 {
     font-size: 38px;
-    line-height: 2;
+    line-height: 1.5;
   }
   h2 {
-font-size: 20px;
+    font-size: 20px;
   }
   .project-description {
     padding: 0;
     text-align: center;
   }
   h3 {
-font-size: 38px;
+    font-size: 38px;
   }
 
   .content-container {
